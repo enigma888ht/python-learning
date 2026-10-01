@@ -9,4 +9,10 @@ print("__________________________________________________________")
 # The usage of input() function is to read user input from the console. The first input is stored as a string, while the second input is converted to an integer before performing arithmetic operations.
 a = int(input()) # read the third input and convert it to an integer
 b = int(input()) # read the fourth input and convert it to an integer
-print(a + b) # add the two integers and print the result
+# print(a + b) # add the two integers and print the result
+print("__________________________________________________________")
+name = input("Please enter your name: ")
+print("Hello,", name)
+age = float(input("Please enter your age percisely:"))
+print("Your age is", age)
+
